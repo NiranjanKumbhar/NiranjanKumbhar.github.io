@@ -99,7 +99,9 @@ b, strong {
   display: flex;
   align-items:center;
 }
-
+.testimonial-text{
+  margin-left: 30px;
+}
 .animated {
   position: relative;
 }
