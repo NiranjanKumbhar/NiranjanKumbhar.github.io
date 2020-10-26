@@ -95,6 +95,11 @@ b, strong {
   color: #ffffff !important;
 }
 
+.testimonial-box {
+  display: flex;
+  align-items:center;
+}
+
 .animated {
   position: relative;
 }
@@ -102,8 +107,8 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 10px;
-  width: 250px;
+  margin-top: 7px;
+  width: 320px;
   position: relative;
 }
 
@@ -112,7 +117,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 32px;
+  font-size: 36px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -121,7 +126,7 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
-  animation: BottomTotop 4s linear infinite 0s;
+  animation: BottomTotop 3s linear infinite 0s;
 }
 .animated-item:nth-child(1) {
   animation-delay: 0s;
@@ -131,9 +136,6 @@ b, strong {
 }
 .animated-item:nth-child(3) {
   animation-delay: 2s;
-}
-.animated-item:nth-child(4) {
-  animation-delay: 3s;
 }
 
 @keyframes BottomTotop {
