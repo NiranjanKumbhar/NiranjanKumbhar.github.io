@@ -1,8 +1,8 @@
 {
-    "remotePath": "./htdocs/",
-    "host": "ftpupload.net",
-    "username": "epiz_26922988",
-    "password": "ixO4vI5Zb0E",
+    "remotePath": "",
+    "host": "",
+    "username": "",
+    "password": "",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
